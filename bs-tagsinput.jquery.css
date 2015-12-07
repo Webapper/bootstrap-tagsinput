@@ -1,0 +1,34 @@
+.tagsinput .tagsinput-selected-tags {
+	width: auto;
+	white-space: normal;
+	text-align: left;
+}
+.tagsinput .tagsinput-search {
+	width: 33%;
+}
+.tagsinput .tagsinput-selected-tags .input-tag {
+	display: inline-block;
+	border: 1px solid #dedede;
+	padding: 3px;
+	border-radius: 3px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+	cursor: default;
+}
+.tagsinput .tagsinput-tags label {
+	font-size: 11px;
+	line-height: 11px;
+	margin-right: 5px;
+}
+.tagsinput .tagsinput-tags label input[type="checkbox"] {
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+}
+.tagsinput .tagsinput-tags label:after {
+	content: ';';
+	margin-left: 3px;
+}
+.tagsinput .tagsinput-tags label:last-child:after{
+	content: '';
+}
